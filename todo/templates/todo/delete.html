@@ -1,0 +1,37 @@
+{% extends 'todo/base.html' %}
+
+{% block head %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'todo/style.css' %}">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+{% endblock head %}
+
+{% block content %}
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        <div class="card border-0 shadow">
+          <div class="card-header bg-danger text-white">
+            <h2>Delete Task</h2>
+          </div>
+          <div class="card-body">
+            <form method="POST">
+              {% csrf_token %}
+              <p>Are you sure you want to delete "{{ task.name }}"?</p>
+              <div class="d-grid gap-2">
+                <button type="submit" class="btn btn-danger">
+                  <span class="fas fa-trash-alt me-2"></span> Confirm
+                </button>
+              </div>
+            </form>
+            <div class="d-grid gap-2">
+              <a href="{% url 'home' %}" class="btn btn-secondary">
+                <span class="fas fa-arrow-left me-2"></span> Cancel
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}
