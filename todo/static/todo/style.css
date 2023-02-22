@@ -1,179 +1,176 @@
 /* Style for create.html */
 
 .form-group {
-    margin-bottom: 1rem;
-  }
-  .form-group label {
-    display: block;
-    font-weight: bold;
-    margin-bottom: 0.5rem;
-  }
-  .form-control {
-    display: block;
-    width: 100%;
-    padding: 0.375rem 0.75rem;
-    font-size: 1rem;
-    line-height: 1.5;
-    color: #495057;
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 1px solid #ced4da;
-    border-radius: 0.25rem;
-    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  }
-  
+  margin-bottom: 1rem;
+}
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
 
+/* Style for Home.html */
+/* Style for home-container */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+  font-family: sans-serif;
+}
 
-  /* Style for Home.html */
-  /* Style for home-container */
-  .home-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    background-color: #f5f5f5;
-    font-family: sans-serif;
-  }
-  
-  .enter-bar {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-  }
-  
-  .enter-bar button {
-    background-color: #4CAF50;
-    border: none;
-    color: white;
-    padding: 12px 24px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 8px;
-    transition: background-color 0.3s;
-  }
-  
-  .enter-bar button:hover {
-    background-color: #3e8e41;
-  }
-  
-  .task-container {
-    width: 80%;
-    background-color: white;
-    border-radius: 20px;
-    padding: 20px;
-    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
-  }
-  
-  .tasks {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .task {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 10px;
-    padding: 10px;
-    background-color: #f9f9f9;
-    border-radius: 8px;
-    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
-  }
-  
-  .task a {
-    text-decoration: none;
-    align-self: right;
-    transition: color 0.3s;
-  }
-  
-  .task a:hover {
-    color: #0b6fb2;
-  }
-  
-  .task input[type="checkbox"] {
-    margin-right: 10px;
-  }
-  
+.enter-bar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
 
-  /* Style for create.html */
+.enter-bar button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
 
-  .form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 50px;
-    width: 400px;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-    background-color: #fff;
-  }
-  
-  .form h2 {
-    font-size: 28px;
-    margin-bottom: 20px;
-  }
-  
-  .form-group {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    margin-bottom: 20px;
-  }
-  
-  .form-group label {
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 10px;
-    color: #555;
-  }
-  
-  .form-group input,
-  .form-group textarea {
-    width: 100%;
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    font-size: 16px;
-    color: #555;
-    resize: none;
-  }
-  
-  .btn {
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 18px;
-    font-weight: bold;
-    color: #fff;
-    background-color: #007bff;
-    border: none;
-    cursor: pointer;
-    transition: all 0.3s ease;
-  }
-  
-  .btn:hover {
-    background-color: #0069d9;
-  }
-  
-    /* Style for delete.html */
-    .card-header h2 {
-        font-size: 2rem;
-      }
-      
-      .card-body p {
-        font-size: 1.5rem;
-      }
-      
-      .btn svg {
-        width: 1em;
-        height: 1em;
-      }
-      
-      .btn .fas {
-        font-size: 1.25rem;
-      }
+.enter-bar button:hover {
+  background-color: #3e8e41;
+}
+
+.task-container {
+  width: 80%;
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.tasks {
+  list-style: none;
+  padding: 0;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+.task a {
+  text-decoration: none;
+  align-self: right;
+  transition: color 0.3s;
+}
+
+.task a:hover {
+  color: #0b6fb2;
+}
+
+.task input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+/* Style for create.html */
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  width: 400px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.form h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  color: #555;
+  resize: none;
+}
+
+.btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0069d9;
+}
+
+/* Style for delete.html */
+.card-header h2 {
+  font-size: 2rem;
+}
+
+.card-body p {
+  font-size: 1.5rem;
+}
+
+.btn svg {
+  width: 1em;
+  height: 1em;
+}
+
+.btn .fas {
+  font-size: 1.25rem;
+}
